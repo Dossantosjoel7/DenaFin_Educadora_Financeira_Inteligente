@@ -4,7 +4,7 @@
 
 Descreva se usou os arquivos da pasta `data`, por exemplo:
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Utilização na DenaFin |
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV | Contextualizar interações anteriores para que o agente tenha "memória" e saiba quais as dúvidas que o cliente já esclareceu.|
 | `produtos_financeiros.json` | JSON | Servir como catálogo de mercado. Usado para explicar como funcionam diferentes produtos (ex: CDB, Tesouro Direto) sem fazer recomendações diretas. |
