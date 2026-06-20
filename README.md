@@ -23,7 +23,7 @@ A DenaFin é uma assistente virtual que atua como uma "Professora Particular". E
 flowchart TD
     A[Utilizador] --> B[Streamlit]
     B --> C[Ollama - LLM Local]
-    C --> D[Base de Conhecimento (RAG)]
+    C --> D[Base de Conhecimento]
     D --> C
     C --> E[Resposta Educativa e Segura]
 
