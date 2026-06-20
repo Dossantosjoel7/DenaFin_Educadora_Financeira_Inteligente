@@ -1,11 +1,14 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+Data,Descricao,Categoria,Valor,Tipo
+2026-06-01,Pagamento Serviços Estafeta,Rendimento,850.00,Credito
+2026-06-02,Renda Habitação,Habitação,300.00,Debito
+2026-06-03,Continente Coimbra,Alimentação,52.30,Debito
+2026-06-04,Propinas ISEC,Educação,69.00,Debito
+2026-06-05,Spotify Premium,Lazer,7.99,Debito
+2026-06-07,Passe SMTUC,Transporte,30.00,Debito
+2026-06-10,Restaurante Baixa,Alimentação,15.50,Debito
+2026-06-12,Módulo Formação TVDE,Educação,50.00,Debito
+2026-06-15,Pingo Doce,Alimentação,34.10,Debito
+2026-06-16,Pagamento Serviços Estafeta,Rendimento,420.00,Credito
+2026-06-18,Donativo Blender Foundation,Lazer,10.00,Debito
+2026-06-19,Farmácia,Saúde,12.50,Debito
+2026-06-20,Alma Shopping,Alimentação,11.20,Debito
