@@ -1,4 +1,3 @@
-```
 # 👩‍🏫 DenaFin - Educadora Financeira Inteligente
 
 > Agente de IA Generativa desenhado para ensinar conceitos de finanças pessoais a jovens adultos, estudantes e trabalhadores independentes de forma simples, usando os próprios dados do cliente como exemplos práticos.
@@ -27,7 +26,6 @@ flowchart TD
     C --> D[Base de Conhecimento (RAG)]
     D --> C
     C --> E[Resposta Educativa e Segura]
-````
 
 **Stack Tecnológica:**
 
