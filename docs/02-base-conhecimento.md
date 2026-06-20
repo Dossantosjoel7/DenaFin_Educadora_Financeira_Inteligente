@@ -11,9 +11,6 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | `faq_educacao_financeira.json` | JSON | Servir como dicionário de conceitos teóricos (ex: Juros Compostos, Inflação, Reserva de Emergência) para sustentar a didática do agente. |
 | `transacoes.csv` | CSV | Analisar o padrão de gastos do cliente, calcular totais mensais e categorizar despesas (ex: alimentação, transportes) |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
-
 ---
 
 ## Adaptações nos Dados
