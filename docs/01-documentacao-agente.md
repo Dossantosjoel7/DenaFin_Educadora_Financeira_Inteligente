@@ -74,17 +74,19 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [Foca apenas en educar, não em aconselhar]
+- [ ] Só usa dados fornecidos no contexto
+- [ ] O agente utiliza a técnica de RAG (Retrieval-Augmented Generation): só pode responder a dúvidas bancárias com base nos textos injetados na Base de Conhecimento.
+- [ ] Não recomenda investimentos específicos
+- [ ] Quando não sabe ou não encontra a informação no contexto fornecido, o agente tem uma instrução de sistema (System Prompt) rígida para responder: "Não encontrei essa informação nos meus registos".
+- [ ] Foca apenas em educar, não em aconselhar
+- [ ] Respostas sobre regras de crédito ou taxas incluem sempre um aviso: "Com base no documento das políticas do banco..."
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
 - NÃO faz recomendações de investimento direto: Nunca sugere a compra/venda de ações, criptomoedas ou fundos específicos.
 
-- NÃO executa transferências (Apenas Leitura): Por motivos de segurança,o agente apenas lê os dados (extratos/saldos) e não tem permissão   para movimentar dinheiro.
+- NÃO executa transferências (Apenas Leitura): Por motivos de segurança,o agente apenas lê os dados (extratos/saldos) e não tem permissão para movimentar dinheiro.
 
 - NÃO pede nem armazena passwords: Está programado para recusar qualquer interação onde o cliente tente enviar códigos PIN ou CVV do cartão.
 
